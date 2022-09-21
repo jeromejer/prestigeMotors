@@ -1,0 +1,127 @@
+.page__prices {
+    margin-top: 50px;
+    border-top: 0.5px solid #b4afaf;
+    padding-top: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../img/price.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+
+.page__price-title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.page__price-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    text-align: left;
+    color: #eeeaea;
+}
+
+.page__price-title::after {
+    content: '';
+    background-image: url(../../../img/arrow3.svg);
+    width: 15px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 23px;
+    margin-left: 10px;
+}
+
+.prices__buttons {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.prices__btn {
+    max-width: 300px;
+    width: 100%;
+    padding: 16px 32px;
+    text-align: center;
+    display: block;
+    font-size: 23px;
+}
+
+.prices__btn_form {
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 14px #ffffff;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+
+.prices__btn_call {
+    color: white;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px #ff0000;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .page__prices {
+        padding-top: 60px;
+    }
+
+    .page__price-title {
+        font-size: 25px;
+    }
+
+    .page__price-title::after {
+        width: 10px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .page__prices {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .page__prices {
+        padding-top: 30px;
+    }
+
+    .page__price-title {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .page__prices {
+        background-size: 60%;
+    }
+
+    .prices__buttons {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 70px;
+    }
+
+    .prices__btn {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .prices__btn_form {
+        margin-right: 0;
+    }
+
+}

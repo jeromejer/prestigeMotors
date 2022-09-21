@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prestige Motors СПБ</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+        <a href="tel:+79111483331" class="call"></a>
+        <div href="" class="nav__bar"></div>
+
+        <div class="header__head">
+            <div class="header__contacts">
+              <ul class="header__contacts-list contacts-list">
+                <li>
+                  <a class="contact contact-adress"
+                    >СПб, Евпаторийский&nbsp;переулок&nbsp;д.&nbsp;7А</a>
+                </li>
+                <li>
+                  <a class="contact contact-time"
+                    >10:00 - 21:00 | Ежедневно</a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+79111483331"
+                    class="contact contact-tel"
+                    >+7 (911) 148-33-31</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div style="position: relative">
+              <div class="header__nav-block">
+                <nav class="header__nav">
+                  <img src="<%=require('./img/logo-white.png')%>" alt="Логотип" class="header__logo" />
+                  <ul class="header__links">
+                    <li class="header__link header__link_active"><a>Главная</a></li>
+                    <li class="header__link"><a>Акции</a></li>
+                    <li class="header__link"><a>Прайс</a></li>
+                    <li class="header__link"><a>Примеры работ</a></li>
+                    <li class="header__link"><a>Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__nav-block-mobile">
+                <nav class="header__nav-mobile">
+                  <ul class="header__links-mobile">
+                    <li class="header__link header__link_active"><a>Главная</a></li>
+                    <li class="header__link"><a>Акции</a></li>
+                    <li class="header__link"><a>Прайс</a></li>
+                    <li class="header__link"><a>Примеры работ</a></li>
+                    <li class="header__link"><a>Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        <div class="header__content">
+            <div class="header__text">
+                <h1 class="header__title">Контакты и карта проезда</h1>
+                <p class="header__subtitle">Престиж моторс</p>
+            </div>
+          
+         
+          <div class="header__buttons">
+            <a class="header__btn header__btn_form" href="#enroll">Записаться</a>
+            <a class="header__btn header__btn_call" href="tel:+79111483331">Позвонить</a>
+          </div>
+        </div>
+      
+    </header>
+
+    <main>
+      <section class="section">
+
+        <div class="contacts">
+          
+            <div class="contacts__block element-animation">
+                <div class="contacts__text">
+                    <p class="contacts__adress">г.Санкт-Петербург, Евпаторийский переулок д. 7А</p>
+                    <p class="contacts__time">10:00 - 21:00 | Ежедневно</p>
+                    <p class="contacts__tel">+7 (911) 148-33-31</p>
+                    <div class="contacts__social-links">
+                        <a href="#" target="_blank" class="contacts__tg contacts__social-link"></a>
+                        <a href="#" target="_blank" class="contacts__wtsp contacts__social-link"></a>
+                        <a href="#" target="_blank" class="contacts__vk contacts__social-link"></a>
+                    </div>
+                    <a class="contacts__btn" href="https://2gis.ru/spb/directions/tab/bus/points/30.338798%2C59.963859?m=30.339282%2C59.961853%2F15">Проложить маршрут</a>
+                </div>
+
+                <div class="contacts__geo">
+                    <iframe class="contacts__map" id="map_521224053" frameborder="0" width="100%" height="100%" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe><script type="text/javascript">(function(e,t){var r=document.getElementById(e);r.contentWindow.document.open(),r.contentWindow.document.write(atob(t)),r.contentWindow.document.close()})("map_521224053", "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiIzRiOWNkNCIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzMwLjMzODc5OCw1OS45NjM4NTldfSwiaWQiOjUwNX1dLCJtYXBQb3NpdGlvbiI6eyJsYXQiOjU5Ljk2MzE5NTc0MDM1MDYxLCJsb24iOjMwLjMzOTIxNzE4NTk3NDEyNSwiem9vbSI6MTV9LCJpc1doZWVsWm9vbUVuYWJsZWQiOnRydWV9Jyk8L3NjcmlwdD48c2NyaXB0IGFzeW5jPSIiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTE1ODg2NjE2OC0xIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+KGZ1bmN0aW9uKGUpe2Z1bmN0aW9uIHQoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpfXdpbmRvdy5kYXRhTGF5ZXI9d2luZG93LmRhdGFMYXllcnx8W10sdCgianMiLG5ldyBEYXRlKSx0KCJjb25maWciLGUpLHdpbmRvdy5ndGFnPXR9KSgnVUEtMTU4ODY2MTY4LTEnKTwvc2NyaXB0PjwvYm9keT4=")</script>
+
+                </div>
+            </div>
+
+           
+        </div>
+        
+            
+      </section>
+
+    </main>
+
+    <footer>
+        <section class="section">
+            <div class="footer">
+                <div class="footer__text">
+                    <p>Автосервис&nbsp;полного&nbsp;цикла</p>
+                    <p>«Престиж&nbsp;Моторс» </p>
+                </div>
+               
+                <ul class="footer__contacts">
+                    <li class="contact contact-adress">СПб, Евпаторийский переулок д.&nbsp;7А</li>
+                    <li class="contact contact-time">10:00&nbsp;-&nbsp;21:00&nbsp;|&nbsp;Ежедневно</li>
+                    <li class="contact contact-tel"><a href="tel:+79111483331" >+7&nbsp;(911)&nbsp;148-33-31</a></li>
+                </ul>
+                
+            </div>
+        </section>
+
+    </footer>
+  </body>
+</html>

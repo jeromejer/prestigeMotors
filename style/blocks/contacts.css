@@ -1,0 +1,214 @@
+.contacts {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+    border-top: 0.5px solid #b4afaf;
+}
+
+.contacts__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin: 0 auto 0 0;
+    line-height: 50px;
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+}
+
+.contacts__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 100px;
+}
+
+.contacts__geo {
+    width: 60%;
+}
+
+.contacts__text {
+    width: 40%;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 5px 20px 0 0;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.contacts__tg {
+    background-image: url(../../img/telegram.svg);
+}
+
+.contacts__wtsp {
+    background-image: url(../../img/whatsapp.svg);
+}
+
+.contacts__vk {
+    background-image: url(../../img/vk.svg);
+}
+.contacts__social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.contacts__social-link {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+}
+
+.contacts__btn{
+    width: 80%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    color: white;
+    border: 2px solid #ff0000;
+    box-shadow: 0px 0px 14px #ff0000;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.contacts__btn:hover {
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 0px 0px 25px #ff0000;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.contacts__map {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.8" /><feFuncG type="linear" slope="0.8" /><feFuncB type="linear" slope="0.8" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: brightness(0.8);
+            filter: brightness(0.8);
+}
+
+@media screen and (max-width: 1280px) {
+    .contacts {
+        margin-top: 80px;
+    }
+
+    .contacts__block {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contacts {
+        margin-top: 60px;
+    }
+
+    .contacts__block {
+        margin-top: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .contacts__text {
+        width: 100%;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    .contacts__btn {
+        padding: 12px 28px;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contacts__geo {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__title {
+    width: 100%;
+    max-width: 330px;
+    font-size: 25px;
+    line-height: 35px;
+    }
+
+    .contacts__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .contacts__social-link {
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .contacts {
+        margin-top: 30px;
+    }
+
+    .contacts__title {
+        font-size: 21px;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contacts__text {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0;
+    }
+    
+
+    .contacts__social-link {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contacts__btn {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 12px;
+    }
+
+    
+
+}

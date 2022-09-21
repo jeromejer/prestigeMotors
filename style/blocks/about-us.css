@@ -1,0 +1,238 @@
+.about-us {
+    background-image: url('../../img/about-us-overlay.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-size: contain;
+    margin-top: 10px;
+    border-top: 0.5px solid #b4afaf;
+}
+
+.about-us__text {
+    width: 50%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+}
+
+.about-us__content {
+    width: 60%;
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.about-us__types {
+    width: 70%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 50px;
+}
+
+.about-us-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 50px;
+
+}
+
+
+.about-us-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 20px 0 0;
+    text-align: left;
+    color: #eeeaea;
+}
+
+.about-us-text {
+    margin: 40px 0 0 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+
+
+.about-us__list {
+    font-size: 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    color: #eeeaea;
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+
+
+.about-us__lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    /* opacity: 0; */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: 2s;
+    transition: 2s;
+    margin: 20px 0 0 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    border-left: 0.5px solid #b4afaf;
+    padding-left: 20px;
+    max-width: 700px;
+    flex-wrap: wrap;
+}
+
+
+
+/* .about-us__lists_animation {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+} */
+
+@media screen and (max-width: 1280px) {
+    .about-us__types {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .about-us__text {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    .about-us-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .about-us-subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .about-us-text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .about-us__lists {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .about-us {
+        margin-top: 20px;
+    }
+
+    .about-us__list {
+        margin-right: 13px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .about-us__text {
+        width: 100%;
+    }
+
+    .about-us-title {
+        max-width: 200px;
+    }
+
+
+    .about-us__types {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-us-text {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about-us {
+        padding: 0;
+        margin:  0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 40px;
+    }
+
+    .about-us-subtitle {
+        margin: 15px auto 0;
+        padding: 0;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .about-us-title {
+        font-size: 21px;
+        line-height: 23px;
+        text-align: center;
+        max-width: none;
+        margin-top: 10px;
+
+    }
+
+    .about-us__types {
+        margin-top: 40px;
+    }
+
+    .about-us-text {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+    .about-us__lists {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .about-us__list {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .page__action-after::before {
+        background-size: 30px;
+        height: 30px;
+        padding-right: 30px;
+    }
+
+}

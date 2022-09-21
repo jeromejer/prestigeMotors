@@ -1,0 +1,153 @@
+.send-photo {
+    padding: 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 100px;
+    border-top: 0.5px solid #b4afaf;
+}
+
+
+.send-photo__text {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+}
+
+.send-photo__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    width: 100%;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.send-photo__subtitle {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 50px 20px 0 0;
+    text-align: left;
+    color: #eeeaea;
+}
+
+.send-photo__social-links {
+    max-width: 38%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 35px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.send-photo__wp {
+    background-image: url(../../img/whatsapp.svg);
+}
+
+.send-photo__tg {
+    background-image: url(../../img/telegram.svg);
+}
+
+.send-photo__social-link {
+    display: block;
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1280px) {
+    .send-photo {
+        margin-top: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    .send-photo__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .send-photo__subtitle {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .send-photo__social-link {
+        height: 65px;
+        width: 65px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .send-photo {
+        margin-top: 60px;
+    }
+
+    .send-photo__social-links {
+        gap: 15px;
+    }
+
+    
+}
+
+@media screen and (max-width: 420px) {
+    .send-photo__title {
+        font-size: 21px;
+        line-height: 23px;
+        text-align: left;
+        margin-top: 30px;
+        max-width: none;
+        width: 100%;
+    }
+
+    .send-photo {
+        margin-top: 30px;
+    }
+
+    .send-photo__text {
+        margin-top: 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .send-photo__subtitle {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .send-photo__social-links {
+        margin-top: 30px;
+    }
+
+
+
+    
+}
